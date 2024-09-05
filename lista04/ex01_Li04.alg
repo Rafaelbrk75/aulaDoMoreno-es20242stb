@@ -1,5 +1,5 @@
-algoritmo "ExercÌcio 01"
-//1) Solicite uma palavra (mÌnimo 4 e m·ximo 30 caracteres) e apresente a
+algoritmo "Exerc√≠cio 01"
+//1) Solicite uma palavra (m√≠nimo 4 e m√°ximo 30 caracteres) e apresente a
 //quantidade de caracteres na mesma.
 // Autor : Rafael Rodrigues Oliveira Santos
 // Data : 05/09/2024
@@ -8,12 +8,12 @@ palavra: caracter
 i:inteiro
 inicio
 repita
-  escreval("Informe uma palavra com (mÌnimo 4 e m·ximo 30 caracteres): ")
+  escreval("Informe uma palavra com (m√≠nimo 4 e m√°ximo 30 caracteres): ")
   leia(palavra)
 
   i <- compr(palavra)
   
   escreval("A quantidade de caracteres informado foi: ", i)
   escreval("------------------------------------------------------------------")
-ate (i > 4) e (i < 30)
+ate (i >= 4) e (i <= 30)
 fimalgoritmo
